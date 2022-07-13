@@ -1,0 +1,210 @@
+@font-face {
+    font-family: RobotoL;
+    src: url(fonts/Roboto-Light_0.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular_0.ttf);
+}
+
+@font-face {
+    font-family: HelveticaUL;
+    src: url(fonts/helvetica-ultra-light.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 1636px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/index-image-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 70%;
+    top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0% 10%;
+    overflow: hidden;
+}
+
+.hamburguer {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    cursor: pointer;
+}
+
+li {
+    float: left;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.estagio {
+    position: absolute;
+    top: 190px;
+    left: 20%;
+    color: white;
+    font-family: HelveticaUL;
+    font-size: 120px;
+    text-align: left;
+}
+
+.prova {
+    position: absolute;
+    top: 390px;
+    left: 20%;
+    color: white;
+    font-family: HelveticaUL;
+    font-size: 50px;
+    text-align: left;
+}
+
+.titulo1,
+.titulo2 {
+    font-size: 50px;
+    font-family: HelveticaUL;
+}
+
+.cadastro {
+    position: absolute;
+    width: 100%;
+    height: 1636px;
+    top: 1636px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/cadastro-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.grupo {
+    position: absolute;
+    width: 480px;
+    border: 0;
+    left: 50%;
+    margin-left: -240px;
+}
+
+.campo label {
+    margin-bottom: 2px;
+    margin-top: 12px;
+    text-align: left;
+    color: white;
+    font-family: Roboto;
+    display: block;
+}
+
+.campo input[type="text"] {
+    color: white;
+    font-family: Roboto;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 480px;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: #29abe2;
+}
+
+.btn {
+    position: absolute;
+    top: 452px;
+    left: 50%;
+    margin-left: -150px;
+    background-color: #012d51;
+    color: #29abe2;
+    border: none;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    font-family: HelveticaUL;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.listaCadastro {
+    position: absolute;
+    top: 3272px;
+    width: 100%;
+    height: 1636px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/lista-cadastro-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #29abe2;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 10px solid #fbfcf8;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+table td {
+    padding: 20px 100px;
+    border: 1px solid #29abe2;
+}
+
+table tr {
+    color: #012d51;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.topo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 80%;
+    cursor: pointer;
+}
+
+.rodape {
+    position: absolute;
+    top: 4908px;
+    width: 100%;
+    height: 756px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/rodape-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    font-family: RobotoL;
+    font-size: 40px;
+}

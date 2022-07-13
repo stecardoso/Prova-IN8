@@ -1,0 +1,208 @@
+@font-face {
+    font-family: RobotoL;
+    src: url(fonts/Roboto-Light_0.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular_0.ttf);
+}
+
+@font-face {
+    font-family: HelveticaUL;
+    src: url(fonts/helvetica-ultra-light.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 940px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/index-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0% 20%;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: white;
+    display: block;
+    font-family: Roboto;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.estagio {
+    position: absolute;
+    top: 190px;
+    left: 20%;
+    color: white;
+    font-family: HelveticaUL;
+    font-size: 120px;
+    text-align: left;
+}
+
+.prova {
+    position: absolute;
+    top: 390px;
+    left: 20%;
+    color: white;
+    font-family: HelveticaUL;
+    font-size: 50px;
+    text-align: left;
+}
+
+.titulo1,
+.titulo2 {
+    font-size: 50px;
+    font-family: HelveticaUL;
+}
+
+.cadastro {
+    position: absolute;
+    width: 100%;
+    height: 620px;
+    top: 940px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/cadastro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.grupo {
+    position: absolute;
+    width: 480px;
+    border: 0;
+    left: 50%;
+    margin-left: -240px;
+}
+
+.campo label {
+    margin-bottom: 2px;
+    margin-top: 12px;
+    text-align: left;
+    color: white;
+    font-family: Roboto;
+    display: block;
+}
+
+.campo input[type="text"] {
+    color: white;
+    font-family: Roboto;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 480px;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: #29abe2;
+}
+
+.btn {
+    position: absolute;
+    top: 452px;
+    left: 50%;
+    margin-left: -150px;
+    background-color: #012d51;
+    color: #29abe2;
+    border: none;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    font-family: HelveticaUL;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.listaCadastro {
+    position: absolute;
+    top: 1560px;
+    width: 100%;
+    height: 620px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/lista-cadastro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #29abe2;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 10px solid #fbfcf8;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+table td {
+    padding: 20px 100px;
+    border: 1px solid #29abe2;
+}
+
+table tr {
+    color: #012d51;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.topo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 80%;
+    cursor: pointer;
+}
+
+.rodape {
+    position: absolute;
+    top: 2180px;
+    width: 100%;
+    height: 334px;
+    left: 50%;
+    margin-left: -50%;
+    background-image: url("images/rodape-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 110px;
+    color: white;
+    font-family: RobotoL;
+}
